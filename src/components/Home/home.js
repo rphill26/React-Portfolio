@@ -33,6 +33,7 @@ export default class Home extends Component {
             malesuada quam elit ac odio. Duis sit amet dictum magna. Quisque
             suscipit consequat urna eget mattis.
           </p>
+          <img src></img>
         </div>
       </div>
     );

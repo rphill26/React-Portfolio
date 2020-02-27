@@ -26,12 +26,16 @@ export default class Header extends Component {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" id="home-btn" href="/">
+                <a className="nav-link" id="home-btn" href="/React-Portfolio">
                   About <span className="sr-only">(current)</span>
                 </a>
               </li>
               <li className="nav-item active">
-                <a className="nav-link" id="contact-btn" href="/contact">
+                <a
+                  className="nav-link"
+                  id="contact-btn"
+                  href="/React-Portfolio/contact"
+                >
                   Contact
                 </a>
               </li>
@@ -51,11 +55,11 @@ export default class Header extends Component {
                   aria-labelledby="navbarDropdownMenuLink"
                   aria-haspopup="true"
                 >
-                  <a className="dropdown-item" href="/apps">
+                  <a className="dropdown-item" href="/React-Portfolio/apps">
                     Apps & Projects
                   </a>
 
-                  <a className="dropdown-item" href="/resume">
+                  <a className="dropdown-item" href="/React-Portfolio/resume">
                     Resume
                   </a>
                 </div>

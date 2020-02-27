@@ -41,6 +41,7 @@ export default class Home extends Component {
             <div className="col-3">
               <img
                 id="city-image"
+                alt="city"
                 src={process.env.PUBLIC_URL + "/images/City.jpg"}
               ></img>
             </div>

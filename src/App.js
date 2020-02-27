@@ -19,10 +19,10 @@ class App extends Component {
           <Header></Header>
           <Layout>
             <Switch>
-              <Route exact path="/React-Portfolio" component={Home} />
-              <Route path="/React-Portfolio/contact" component={Contact} />
-              <Route path="/React-Portfolio/apps" component={Apps} />
-              <Route path="/React-Portfolio/resume" component={Resume} />
+              <Route exact path="/" component={Home} />
+              <Route path="/contact" component={Contact} />
+              <Route path="/apps" component={Apps} />
+              <Route path="/resume" component={Resume} />
               <Route component={NoMatch} />
             </Switch>
           </Layout>

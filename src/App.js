@@ -15,9 +15,9 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Header></Header>
-        <Layout>
-          <Router>
+        <Router>
+          <Header></Header>
+          <Layout>
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/contact" component={Contact} />
@@ -25,8 +25,8 @@ class App extends Component {
               <Route path="/resume" component={Resume} />
               <Route component={NoMatch} />
             </Switch>
-          </Router>
-        </Layout>
+          </Layout>
+        </Router>
         <Footer></Footer>
       </React.Fragment>
     );

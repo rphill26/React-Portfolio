@@ -52,11 +52,9 @@ export default class Header extends Component {
                   aria-haspopup="true"
                 >
                   <a className="dropdown-item" href="#">
-                    Apps
+                    Apps & Projects
                   </a>
-                  <a className="dropdown-item" href="#">
-                    Projects
-                  </a>
+
                   <a className="dropdown-item" href="#">
                     Resume
                   </a>

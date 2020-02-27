@@ -28,7 +28,7 @@ li {
   font-size: 2em;
 }
 .dropdown-menu {
-  background-color: silver;
+  background-color: white;
 }
 .dropdown-item {
   font-size: 1.5em;
@@ -61,5 +61,8 @@ hr {
 }
 
 .about-content {
-  text-align: left;
+}
+
+.footer-content {
+  text-align: center;
 }
